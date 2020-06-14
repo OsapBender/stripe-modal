@@ -1,0 +1,32 @@
+body, html {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(-45deg, #19C5FE, #4553FF);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  color: #7b8ca3;
+}
+
+.container {
+  width: 768px;
+  margin: 0 auto;
+}

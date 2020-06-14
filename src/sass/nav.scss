@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  &__link {
+    color: #fff;
+    border: none;
+    background: none;
+    padding-left: 30px;
+    font-size: 1.1em;
+    outline: none;
+
+    &:hover, &:focus {
+      opacity: .8;
+    }
+  }
+}

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Global</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <nav class="nav" role="navigation">
+        <button type='button' data-section="products" class="nav__link" name="Products" aria-label="Products">Products</button>
+        <button type='button' data-section="developers" class="nav__link" name="Developers" aria-label="Developers">Developers</button>
+        <button type='button' data-section="company" class="nav__link" name="Company" aria-label="Company">Company</button>
+    </nav>
+
+    <div class="popup">
+        <div class="popup__content">
+            <section class="popup__section products">
+                <ul class="popup__list-item">
+                    <li class="popup__item payments">
+                        <div class="products__item">
+                            <div class="products__circle circle circle--blue"></div>
+                            <div class="payments__content">
+                                <h3 class="products__title payments__title">
+                                    Payments
+                                </h3>
+                                <p class="payments__subtitle">A complete payments platform engineered for growth</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="popup__item billing">
+                        <div class="products__item">
+                            <div class="products__circle circle circle--green"></div>
+                            <div class="billing__content">
+                                <h3 class="products__title billing__title">
+                                    Billing
+                                </h3>
+                                <p class="billing__subtitle">Build and scale your recurring business model.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="popup__item connect">
+                        <div class="products__item">
+                            <div class="products__circle circle circle--sky"></div>
+                            <div class="connect__content">
+                                <h3 class="products__title connect__title">
+                                    Connect
+                                </h3>
+                                <p class="connect__subtitle">Everything platforms need to get sellers paid.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="popup__section developers">
+                <ul class="popup__list-item">
+                    <li class="popup__item">
+                        <h4 class="developers__title">documentation</h4>
+                        <p class="developers__subtitle">Start integration Stripe`s products and tools.</p>
+                    </li>
+                    <li class="popup__item">
+                        <div class="developers__content">
+                            <ul class="developers__list-item">
+                                <li class="developers__item"><h4>get started</h4></li>
+                                <li class="developers__item"><a href="#" class="developers__link">Elements</a></li>
+                                <li class="developers__item"><a href="#" class="developers__link">Checkout</a></li>
+                                <li class="developers__item"><a href="#" class="developers__link">Mobile apps</a></li>
+                                <li class="developers__item"><a href="#" class="developers__link">Libraries</a></li>
+                            </ul>
+                            <ul class="developers__list-item">
+                                <li class="developers__item"><h4>popular topics</h4></li>
+                                <li class="developers__item"><a href="#" class="developers__link">Apple Pay</a></li>
+                                <li class="developers__item"><a href="#" class="developers__link">Testing</a></li>
+                                <li class="developers__item"><a href="#" class="developers__link">Launch checklist</a>
+                                </li>
+                                <li class="developers__item"><a href="#" class="developers__link">Plug-ins</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="popup__section company">
+                <ul class="popup__list-item">
+                    <li class="popup__item">
+                        <div class="company__content">
+                            <div class="company__icon-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="8"></line></svg>
+                            </div>
+                            <div class="company__content">
+                                <h4 class="company__title">about stripe</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="popup__item">
+                        <div class="company__content">
+                            <div class="company__icon-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                            </div>
+                            <div class="company__content">
+                                <h4 class="company__title">customer</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="popup__item">
+                        <div class="company__content">
+                            <div class="company__icon-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-server"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6" y2="6"></line><line x1="6" y1="18" x2="6" y2="18"></line></svg>
+                            </div>
+                            <div class="company__content">
+                                <h4 class="company__title">partner program</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="popup__item">
+                        <div class="company__content">
+                            <div class="company__icon-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                            </div>
+                            <div class="company__content">
+                                <h4 class="company__title">jobs</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="popup__item">
+                        <div class="company__content">
+                            <div class="company__icon-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                            </div>
+                            <div class="company__content">
+                                <h4 class="company__title">environment</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="popup__item">
+                        <div class="company__content">
+                            <div class="company__icon-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layout"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                            </div>
+                            <div class="company__content">
+                                <h4 class="company__title">newsroom</h4>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="popup__arrow"></div>
+        <div class="popup__background"></div>
+    </div>
+</div>
+</body>
+</html>
